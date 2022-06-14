@@ -1,0 +1,86 @@
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_img {
+    display: flex;
+    align-items: center;
+}
+
+/* .login_panel {
+    width: 20%;
+    border: 1px solid #cbc1c1;
+    height: 327px;
+    border-radius: 6px;
+    padding: 2%;
+} */
+
+.login_panel {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cbc1c1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.login_logo {
+    /* contain: content; */
+    width: 13%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+
+    font-weight: 470;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+form h5 {
+    margin: 8px 0;
+}
+
+form input {
+    width: 95%;
+    height: 20px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    /* background-color: #ffd712; */
+    border-radius: 5px;
+    /* border-color: #cae5e5; */
+    vertical-align: middle;
+}
+
+p1 {
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.new_user {
+    width: 100%;
+    height: 30px;
+    background: #e7e9ec;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    color: #111;
+    /* background-color: #ffd712; */
+    border-radius: 5px;
+    /* border-color: #cae5e5; */
+    vertical-align: middle;
+}

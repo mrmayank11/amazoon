@@ -1,0 +1,20 @@
+.checkout_temp {
+    background-color: #f3f3f3;
+    margin: 20px;
+    display: flex;
+    width: 60%;
+    height: 100%;
+}
+
+.checkout_img {
+    /* important property ||||| (object-fit = contains) , it maintains the aspect ratio of the image */
+    object-fit: contain;
+    padding: 16px;
+    width: 50%;
+    height: 185px;
+
+}
+
+.checkout_description {
+    margin: 22px;
+}
