@@ -1,6 +1,6 @@
 # working model 👇👇👇 click here
 
-https://challenge-29c9f.web.app/orders
+https://challenge-29c9f.web.app/
 
 note: here payment through stripe is not working due to unable to deploy backend in firebase(paid version is necessary for it).
 
