@@ -1,0 +1,10 @@
+.orders{
+    background-color: #f0f0f0;
+}
+.order_id{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 20px 65px;
+    box-shadow: 0 -10px 8px 0 rgb(255 251 251 / 10%), inset 2px 10px 12px 0px rgb(0 0 0 / 11%);
+    
+}

@@ -3,10 +3,13 @@ import './Checkout.css'
 import { getBasketTotal } from './reducer';
 import { useStateValue } from './StateProvider';
 import Product_checkout from './Product_checkout';
+import { useHistory } from 'react-router-dom';
+
 
 function Checkout() {
     const [{ basket }, dispatch] = useStateValue();
-
+    const history = useHistory();
+    const totalPrice = (getBasketTotal(basket)).toFixed(2);
     return (
         <div className='checkout'>
             <div className="checkout_left">
@@ -25,14 +28,14 @@ function Checkout() {
                 <div className="checkout_subtotal">
                     <div className="checkout_priceshow"><p>Subtotal({basket.length} Items):</p>
 
-                        <strong>$ {(getBasketTotal(basket)).toFixed(2)}</strong>
+                        <strong>$ {totalPrice}</strong>
 
                     </div>
 
                     <div className="checkout_box"><input type="checkbox"></input>
                         <p>This order contains gift </p></div>
 
-                    <button className='checkout_button'>Proceed to checkout</button>
+                    <button onClick={e => history.push('/payment')} className='checkout_button'>Proceed to checkout</button>
                 </div>
 
 

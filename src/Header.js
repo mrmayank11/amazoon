@@ -19,7 +19,7 @@ function Header() {
     // // console.log({ name });
     // if (user) {
     let username11 = user?.email.slice(0, -10);
-    console.log({ username11 });
+    // console.log({ username11 });
     // }
 
     return (
@@ -50,14 +50,16 @@ function Header() {
 
 
                 </div>
-                <div className='header_options'>
-                    <span className='header_lineone'>
-                        Returns
-                    </span>
-                    <span className='header_linetwo'>
-                        & Orders
-                    </span>
-                </div>
+                <NavLink Redirect to="orders">
+                    <div className='header_options'>
+                        <span className='header_lineone'>
+                            Returns
+                        </span>
+                        <span className='header_linetwo'>
+                            & Orders
+                        </span>
+                    </div>
+                </NavLink>
                 <div className='header_options'>
                     <span className='header_lineone'>
                         Yours

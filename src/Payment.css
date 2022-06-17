@@ -1,0 +1,23 @@
+.checkout_items{
+    text-align: center;
+}
+.payment_section{
+    margin: 0 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.payment_heading{
+    flex: 0.2;
+}
+
+.payment_details {
+    flex: 0.8;
+}
+
+.fbutton{
+    all:none;
+}
+.fbutton:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
