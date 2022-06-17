@@ -1,3 +1,9 @@
+#working model
+
+https://challenge-29c9f.web.app/orders
+
+note: here payment through stripe is not working due to unable to deploy backend in firebase(paid version is necessary for it).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
