@@ -1,6 +1,6 @@
 # working model 👇👇👇 click here
 
-https://challenge-29c9f.web.app/
+[https://challenge-29c9f.web.app/](https://e-commerce-1-iota.vercel.app/)
 
 note: here payment through stripe is not working due to unable to deploy backend in firebase(paid version is necessary for it).
 
